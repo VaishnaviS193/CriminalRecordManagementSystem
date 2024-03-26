@@ -26,7 +26,7 @@ class Login:
         #Display the image in the background
         canvas1.create_image(0,0,image = bg,anchor=CENTER)
 
-        canvas1.create_text(630, 200, text="Welcome", fill = "white",font=('times new roman',20,'bold'))
+        canvas1.create_text(630, 200, text="Welcome", fill = "Black",font=('times new roman',20,'bold'))
 
         self.var_username= StringVar()
         self.var_password = StringVar()
